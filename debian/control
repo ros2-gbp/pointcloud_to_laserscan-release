@@ -1,0 +1,13 @@
+Source: ros-eloquent-pointcloud-to-laserscan
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ament-cmake-cppcheck, ros-eloquent-ament-cmake-cpplint, ros-eloquent-ament-cmake-flake8, ros-eloquent-ament-cmake-lint-cmake, ros-eloquent-ament-cmake-pep257, ros-eloquent-ament-cmake-uncrustify, ros-eloquent-ament-cmake-xmllint, ros-eloquent-ament-lint-auto, ros-eloquent-laser-geometry, ros-eloquent-message-filters, ros-eloquent-rclcpp, ros-eloquent-rclcpp-components, ros-eloquent-sensor-msgs, ros-eloquent-tf2, ros-eloquent-tf2-ros, ros-eloquent-tf2-sensor-msgs, ros-eloquent-ros-workspace
+Homepage: http://ros.org/wiki/perception_pcl
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-pointcloud-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-laser-geometry, ros-eloquent-launch, ros-eloquent-launch-ros, ros-eloquent-message-filters, ros-eloquent-rclcpp, ros-eloquent-rclcpp-components, ros-eloquent-sensor-msgs, ros-eloquent-tf2, ros-eloquent-tf2-ros, ros-eloquent-tf2-sensor-msgs, ros-eloquent-ros-workspace
+Description: Converts a 3D Point Cloud into a 2D laser scan.
+ This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
