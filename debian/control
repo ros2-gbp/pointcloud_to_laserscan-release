@@ -1,0 +1,13 @@
+Source: ros-humble-pointcloud-to-laserscan
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-flake8 <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-pep257 <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-laser-geometry, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/perception_pcl
+Standards-Version: 3.9.2
+
+Package: ros-humble-pointcloud-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-laser-geometry, ros-humble-launch, ros-humble-launch-ros, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Description: Converts a 3D Point Cloud into a 2D laser scan.
+ This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
