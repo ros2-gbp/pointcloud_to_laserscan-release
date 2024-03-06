@@ -1,0 +1,128 @@
+ros-rolling-pointcloud-to-laserscan (2.0.2-2bookworm) bookworm; urgency=high
+
+  * feat: use exported targets (#69 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/69>)
+  * Stop using the deprecated tf2_sensor_msgs.h header. (#73 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/73>)
+  * Fix default parameters in README (#65 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/65>)
+  * fix: update static transfrom publisher arguments (#70 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/70>)
+  * Cleanup CMakeLists.txt with ament_cmake_auto (#57 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/57>)
+  * Add BSD-3 clause LICENSE
+  * Contributors: Carlos Andrés Álvarez Restrepo, Chris Lalancette, Daisuke Nishimatsu, Michel Hidalgo
+
+ -- Paul Bovbel <paul@bovbel.com>  Fri, 16 Feb 2024 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (2.0.1-2bookworm) bookworm; urgency=high
+
+  * Replace deprecated launch api (#56 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/56>)
+  * Fix linting errors in the code (#52 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/52>)
+  * Update README.md
+  * Contributors: Chris Lalancette, Daisuke Nishimatsu, Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 19 Oct 2021 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (2.0.0-2bookworm) bookworm; urgency=high
+
+  * ROS 2 Migration (#33 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/33>)
+    * ROS 2 Migration
+    Signed-off-by: Michel Hidalgo <mailto:michel@ekumenlabs.com>
+  * Contributors: Michel Hidalgo
+
+ -- Paul Bovbel <paul@bovbel.com>  Mon, 10 Feb 2020 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.4.1-2bookworm) bookworm; urgency=high
+
+  * LaserScan to PointCloud node + nodelet (#28 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/28>)
+  * fix roslint (#29 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/29>)
+  * Merge pull request #20 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/20> from ros-perception/range_max_check
+    Add check for range_max
+  * Add check for range_max
+  * Contributors: Paul Bovbel, Rein Appeldoorn
+
+ -- Paul Bovbel <paul@bovbel.com>  Fri, 30 Aug 2019 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.4.0-2bookworm) bookworm; urgency=high
+
+  * Added inf_epsilon parameter that determines the value added to max range when use_infs parameter is set to false
+  * Merge pull request #11 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/11> from ros-perception/mikaelarguedas-patch-1
+    update to use non deprecated pluginlib macro
+  * Migrate to package format 2; add roslint
+  * Add sane parameter defaults; fixup lint warnings
+  * update to use non deprecated pluginlib macro
+  * Contributors: Mikael Arguedas, Paul Bovbel, Prasanna Kannappan
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 14 Nov 2017 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.3.1-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #4 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/4> from yoshimalucky/fix-miscalculation-in-angle-increment
+    Fixed miscalculation in angle_increment in the launch files.
+  * fixed miscalculation in angle_increment in the launchfiles.
+  * Contributors: Paul Bovbel, yoshimalucky
+
+ -- Paul Bovbel <paul@bovbel.com>  Wed, 26 Apr 2017 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.3.0-2bookworm) bookworm; urgency=high
+
+  * Fix pointcloud to laserscan transform tolerance issues
+  * Move pointcloud_to_laserscan to new repository
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 09 Jun 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.7-2bookworm) bookworm; urgency=high
+
+  * Cleanup pointcloud_to_laserscan launch files
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Mon, 08 Jun 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.6-2bookworm) bookworm; urgency=high
+
+  * Fix default value for concurrency
+  * Fix multithreaded lazy pub sub
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Wed, 04 Feb 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.5-2bookworm) bookworm; urgency=high
+
+  * Switch to tf_sensor_msgs for transform
+  * Set parameters in sample launch files to default
+  * Add tolerance parameter
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Tue, 20 Jan 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.4-2bookworm) bookworm; urgency=high
+
+  * Remove stray dependencies
+  * Refactor with tf2 and message filters
+  * Remove roslaunch check
+  * Fix regressions
+  * Refactor to allow debug messages from node and nodelet
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Thu, 15 Jan 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.3-2bookworm) bookworm; urgency=high
+
+  * add launch tests
+  * refactor naming and fix nodelet export
+  * set default target frame to empty
+  * clean up package.xml
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Sat, 10 Jan 2015 00:00:00 -0000
+
+ros-rolling-pointcloud-to-laserscan (1.2.2-2bookworm) bookworm; urgency=high
+
+  * clean up package.xml
+  * Fix header reference
+  * Fix flow
+  * Fix pointer assertion
+  * Finalize pointcloud to laserscan
+  * Initial pointcloud to laserscan commit
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <paul@bovbel.com>  Sat, 25 Oct 2014 00:00:00 -0000
+
+
