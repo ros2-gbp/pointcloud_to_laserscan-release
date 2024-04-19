@@ -1,0 +1,13 @@
+Source: ros-jazzy-pointcloud-to-laserscan
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, liblaser-geometry-dev, libmessage-filters-dev, libsensor-msgs-dev, libtf2-dev, libtf2-ros-dev, libtf2-sensor-msgs-dev, python3-laser-geometry, python3-message-filters, python3-sensor-msgs, python3-tf2, python3-tf2-ros, python3-tf2-sensor-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/perception_pcl
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-pointcloud-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblaser-geometry-dev, libmessage-filters-dev, libsensor-msgs-dev, libtf2-dev, libtf2-ros-dev, libtf2-sensor-msgs-dev, python3-laser-geometry, python3-message-filters, python3-sensor-msgs, python3-tf2, python3-tf2-ros, python3-tf2-sensor-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-sensor-msgs, ros-jazzy-ros-workspace
+Description: Converts a 3D Point Cloud into a 2D laser scan.
+ This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
