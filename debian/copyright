@@ -1,9 +1,0 @@
-Format: Bloom subset of https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: pointcloud_to_laserscan
-Upstream-Contact: https://github.com/ros-perception/perception_pcl/issues
-Source: https://github.com/ros-perception/perception_pcl
-
-Files: See file headers in repository for details
-Copyright: See package copyright in source code for details
-License: BSD
- See repository for full license text
