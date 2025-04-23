@@ -176,8 +176,7 @@ tracks:
     ros_distro: kilted
     vcs_type: git
     vcs_uri: https://github.com/ros-perception/pointcloud_to_laserscan.git
-    version: 2.0.2
-    version_saved: :{auto}
+    version: :{auto}
   rolling:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
