@@ -1,0 +1,13 @@
+Source: ros-lyrical-pointcloud-to-laserscan
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <paul@bovbel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-flake8 <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-pep257 <!nocheck>, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-laser-geometry, ros-lyrical-message-filters, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/perception_pcl
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-pointcloud-to-laserscan
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-laser-geometry, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-message-filters, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs, ros-lyrical-ros-workspace
+Description: Converts a 3D Point Cloud into a 2D laser scan.
+ This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
