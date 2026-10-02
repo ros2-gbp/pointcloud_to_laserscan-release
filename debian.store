@@ -1,1 +1,1 @@
-{"base": "341960532a54", "parent": "debian/rolling/pointcloud_to_laserscan", "previous": "8e5d3f78b8f9", "trim": "", "trimbase": ""}
+{"base": "7820732", "parent": "debian/rolling/pointcloud_to_laserscan", "previous": "c3e639f", "trim": "", "trimbase": ""}
