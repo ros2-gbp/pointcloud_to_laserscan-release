@@ -2,6 +2,18 @@
 Changelog for package pointcloud_to_laserscan
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.1 (2026-10-02)
+------------------
+* Merge pull request `#1 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/1>`_ from kin-dergarten/remove_dynamic_subscribtion (`#108 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/108>`_)
+* Use NodeInterfaces for tf2_ros constructors (`#109 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/109>`_)
+* Contributors: Michael Carroll, jncfa-kin
+
+2.1.0 (2025-08-28)
+------------------
+* remove deprecation warnings (`#102 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/102>`_)
+* Update README.md (`#82 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/82>`_)
+* Contributors: Alejandro Hernández Cordero, Diego Andrés Carvajal Solano
+
 2.0.2 (2024-02-16)
 ------------------
 * feat: use exported targets (`#69 <https://github.com/ros-perception/pointcloud_to_laserscan/issues/69>`_)
